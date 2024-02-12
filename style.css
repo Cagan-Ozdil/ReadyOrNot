@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 11%;
+    height: 11%;
+    margin-left: 150px;
+}
+
+.header-div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+.order{
+    border: 1px;
+    background-color: #CB0909;
+    text-decoration: none;
+    
+    color: white;
+    margin-left: 65%;
+    padding: 18px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-bottom: 10px;
+    font-family: "Oswald",sans-serif;
+    font-size: 20px;
+}
+
+header{
+   padding-top: 10px;
+   background-color: black;
+}
+
+#hero video{
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    object-fit: cover;
+    background-position: absolute;
+}
+
+#hero{
+    position: relative;
+}
+
+#hero .content{
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#hero .content p{
+    font-family:"Oswald",sans-serif;
+    color: white;
+    
+    font-size: 22.4px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+#hero .content a{
+    position: relative;
+    top: 40px;
+   border: 1px solid rgb(203, 9, 9);
+   background-color: #CB0909;
+   text-decoration: none;
+   padding: 18px;
+   padding-left: 55px;
+   padding-right: 55px;
+   font-family: "Oswald",sans-serif;
+    font-size: 20px;
+    color: white;
+   column-gap: 1200px;
+   
+}
+
+
+#hero .content .trailer{
+   background-color: transparent;
+
+}
+
+#hero .content .faq{
+    background-color: transparent;
+ 
+ }
+
+ 
